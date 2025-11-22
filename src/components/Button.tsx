@@ -13,7 +13,6 @@ function Button({
   className = "",
   variant = "default",
 }: ButtonProps) {
-  // PERBAIKAN: Mengurangi ukuran font (text-5xl -> text-3xl), padding (py-12 -> py-6), dan tinggi (h-32 -> h-20)
   const baseClasses =
     "text-3xl font-semibold rounded-3xl transition-all duration-200 active:scale-95 shadow-lg h-20 flex items-center justify-center";
 
