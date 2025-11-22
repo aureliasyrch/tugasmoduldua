@@ -1,7 +1,5 @@
-// import React from "react";
 import Button from "./Button";
 
-// Menambahkan Type untuk Props (semuanya adalah fungsi)
 interface ButtonGridProps {
   onNumberClick: (num: number) => void;
   onOperatorClick: (op: string) => void;
@@ -18,7 +16,7 @@ function ButtonGrid({
   onToggleSign,
 }: ButtonGridProps) {
   return (
-    // PERBAIKAN: Gap dikurangi dari gap-6 menjadi gap-3
+
     <div className="grid grid-cols-4 gap-3">
       {/* Baris 1 */}
       <Button variant="function" onClick={onClear} className="col-span-2">
